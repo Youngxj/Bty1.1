@@ -101,3 +101,7 @@ QQ群：774688083
 
 ![后台管理](https://ws3.sinaimg.cn/large/005BYqpggy1g15u8z79mxj318g0rutbu.jpg)
 ![主机控制](https://ws3.sinaimg.cn/large/005BYqpggy1g15ua3p0djj311s0u07da.jpg)
+
+#### 付费版预览
+
+![后台管理](https://ws3.sinaimg.cn/large/005BYqpggy1g15um5mfssj318b0lbjui.jpg)
