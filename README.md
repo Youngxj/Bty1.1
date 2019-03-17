@@ -6,11 +6,11 @@
 我们尽可能为您提供最优质稳定的主机资源
 QQ群：774688083
 如果你觉得这个项目能够帮到你，欢迎fork和start
+博客介绍：([https://blog.youngxj.cn/577.html](https://blog.youngxj.cn/577.html)
 
 #### 软件架构
 1. 本系统基于Thinkphp5开发完成
 2. flatlab-bootstrap3
-3. layer
 
 #### 项目说明
 
@@ -29,14 +29,52 @@ QQ群：774688083
 1. 上传并解压源码到网站根目录(暂不支持二级目录)
 2. 上传并导入数据库文件bty.sql
 3. 修改application/database.php中数据库信息
-	// 服务器地址
-    'hostname'        => '',
-    // 数据库名
-    'database'        => '',
-    // 用户名
-    'username'        => '',
-    // 密码
-    'password'        => '',
+
+		// 服务器地址
+		'hostname'        => '',
+		// 数据库名
+		'database'        => '',
+		// 用户名
+		'username'        => '',
+		// 密码
+		'password'        => '',
+
+4. 将运行目录设置为/public
+5. 添加Thinkphp伪静态规则
+
+	Apche:
+
+		<IfModule mod_rewrite.c>
+		Options +FollowSymlinks -Multiviews
+		RewriteEngine on
+		RewriteCond %{REQUEST_FILENAME} !-d
+		RewriteCond %{REQUEST_FILENAME} !-f
+		RewriteRule ^(.*)$ index.php?/$1 [QSA,PT,L]
+		</IfModule>
+
+	Nginx:
+
+		location / {
+		if (!-e $request_filename){
+			rewrite  ^(.*)$  /index.php?s=$1  last;   break;
+			}
+		}
+
+	IIS:
+
+		<rewrite>
+		<rules>
+		<rule name="OrgPage" stopProcessing="true">
+		<match url="^(.*)$" />
+		<conditions logicalGrouping="MatchAll">
+		<add input="{HTTP_HOST}" pattern="^(.*)$" />
+		<add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
+		<add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
+		</conditions>
+		<action type="Rewrite" url="index.php/{R:1}" />
+		</rule>
+		</rules>
+		</rewrite>
 
 #### 宝塔服务器对接教程
 
@@ -53,6 +91,13 @@ QQ群：774688083
 #### 使用说明
 
 1. 后台地址为/admin(暂不支持修改)，请遵循后台首页管理员须知进行主机的添加
-2. 本系统由 Youngxj 编写，请遵守源码使用守则，请勿商用，一经发现严肃处理。
-3. 销售主机的服务器上请安装最新版宝塔面板（[宝塔官网](https://www.bt.cn/?invite_code=MV93YXNpa2I=) | [注册](https://www.bt.cn/register.html?referee=3671)）
-4. 本系统暂不支持空间大小、数据库大小、流量使用总量控制
+2. 后台账号：admin 密码：admin000
+3. 修改系统设置中的站点域名
+4. 本系统由 Youngxj 编写，请遵守开源协议使用守则，请勿商用，一经发现严肃处理。
+5. 销售主机的服务器上请安装最新版宝塔面板（[宝塔官网](https://www.bt.cn/?invite_code=MV93YXNpa2I=) | [注册](https://www.bt.cn/register.html?referee=3671)）
+6. 本系统暂不支持空间大小、数据库大小、流量使用总量控制
+
+#### 项目截图
+
+![后台管理](https://ws3.sinaimg.cn/large/005BYqpggy1g15u8z79mxj318g0rutbu.jpg)
+![主机控制](https://ws3.sinaimg.cn/large/005BYqpggy1g15ua3p0djj311s0u07da.jpg)
