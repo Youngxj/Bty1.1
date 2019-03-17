@@ -103,5 +103,9 @@ QQ群：774688083
 
 #### 项目截图
 
-![后台管理](https://ws3.sinaimg.cn/large/005BYqpggy1g15u8z79mxj318g0rutbu.jpg)
-![主机控制](https://ws3.sinaimg.cn/large/005BYqpggy1g15ua3p0djj311s0u07da.jpg)
+![后台管理](https://images.gitee.com/uploads/images/2019/0317/160129_cc2523f3_1511092.jpeg)
+![主机控制](https://images.gitee.com/uploads/images/2019/0317/160129_b2bf41c7_1511092.jpeg)
+
+#### 付费版预览
+
+![后台管理](https://images.gitee.com/uploads/images/2019/0317/160129_f134dd53_1511092.jpeg)
