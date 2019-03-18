@@ -6,7 +6,7 @@
 我们尽可能为您提供最优质稳定的主机资源
 QQ群：774688083
 如果你觉得这个项目能够帮到你，欢迎fork和start
-博客介绍：([https://blog.youngxj.cn/577.html](https://blog.youngxj.cn/577.html)
+博客介绍：[https://www.youngxj.cn/577.html](https://www.youngxj.cn/577.html)
 
 #### 软件架构
 1. 本系统基于Thinkphp5开发完成
