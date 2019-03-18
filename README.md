@@ -93,7 +93,7 @@ QQ群：774688083
 9. 如果遇到主机开通失败报错，请先检查主机信息是否正确，之后确认本系统运行的IP是否在API接口白名单中。
 
 #### 使用说明
-
+0. PHP 版本要求: PHP 5 >= 5.5.0, PHP 7
 1. 后台地址为/admin(暂不支持修改)，请遵循后台首页管理员须知进行主机的添加
 2. 后台账号：admin 密码：admin000
 3. 修改系统设置中的站点域名
@@ -103,8 +103,8 @@ QQ群：774688083
 
 #### 项目截图
 
-![后台管理](https://ws3.sinaimg.cn/large/005BYqpggy1g15u8z79mxj318g0rutbu.jpg)
-![主机控制](https://ws3.sinaimg.cn/large/005BYqpggy1g15ua3p0djj311s0u07da.jpg)
+![后台管理](https://images.gitee.com/uploads/images/2019/0318/114722_56d7086c_1511092.jpeg)
+![主机控制](https://images.gitee.com/uploads/images/2019/0318/114722_c9594554_1511092.jpeg)
 
 #### 付费版预览
 
