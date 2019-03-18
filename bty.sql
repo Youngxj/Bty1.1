@@ -191,7 +191,7 @@ CREATE TABLE `bty_pay` (
   `ctime` text COMMENT '下单时间',
   `ptime` text COMMENT '支付时间',
   `status` int(11) DEFAULT '0' COMMENT '订单状态',
-  `type` int(11) DEFAULT '0' COMMENT '支付方式',
+  `type` varchar(32) DEFAULT '0' COMMENT '支付方式',
   `out_trade_no` varchar(255) DEFAULT NULL COMMENT '商户订单号',
   `name` varchar(255) DEFAULT NULL COMMENT '商品名称',
   PRIMARY KEY (`id`)
