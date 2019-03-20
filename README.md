@@ -8,6 +8,11 @@ QQ群：774688083
 如果你觉得这个项目能够帮到你，欢迎fork和start
 博客介绍：[https://www.youngxj.cn/577.html](https://www.youngxj.cn/577.html)
 
+#### 宝塔活动
+宝塔一键全能管理服务器，1分钱体验525.6元的插件，还有专业版奖励，立即一起来组队：[宝塔一分钱组团活动](https://www.bt.cn/team.html?MzY3MXp6)
+参与我的队伍更有机会获得3个月专业版哦。
+
+
 #### 软件架构
 1. 本系统基于Thinkphp5开发完成
 2. flatlab-bootstrap3
