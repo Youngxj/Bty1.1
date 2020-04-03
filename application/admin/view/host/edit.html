@@ -8,7 +8,7 @@
     <!--header end-->
     <!--sidebar start-->
     <aside>
-      <div id="sidebar"  class="nav-collapse ">
+      <div id="sidebar" class="nav-collapse ">
         <!-- sidebar menu start-->
         {include file="public/menu" /}
         <!-- sidebar menu end-->
@@ -32,131 +32,140 @@
                   <input type="hidden" value="{$hostInfo.id}" name="id">
 
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">主机ID</label>
+                    <label class="col-lg-2 col-sm-2 control-label">主机ID</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
                         <i class="fa fa-bullhorn"></i>
-                        <input type="text" class="form-control" name="id" id="id" value="{$hostInfo.id}" placeholder="主机ID" disabled="">
+                        <input type="text" class="form-control" name="id" id="id" value="{$hostInfo.id}"
+                          placeholder="主机ID" disabled="">
                       </div>
                     </div>
                   </div>
 
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">主机名</label>
+                    <label class="col-lg-2 col-sm-2 control-label">主机名</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
                         <i class="fa fa-bullhorn"></i>
-                        <input type="text" class="form-control" name="name" id="name" value="{$hostInfo.name}" placeholder="主机名">
+                        <input type="text" class="form-control" name="name" id="name" value="{$hostInfo.name}"
+                          placeholder="主机名">
                         <span class="help-block">简明扼要即可</span>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">服务器IP</label>
+                    <label class="col-lg-2 col-sm-2 control-label">服务器IP</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
                         <i class="fa fa-bullhorn"></i>
-                        <input type="text" class="form-control" name="ip" id="ip" value="{$hostInfo.ip}" placeholder="服务器IP">
+                        <input type="text" class="form-control" name="ip" id="ip" value="{$hostInfo.ip}"
+                          placeholder="服务器IP">
                         <span class="help-block">服务器绑定外网IP，多IP可用,分隔</span>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">费用/月</label>
+                    <label class="col-lg-2 col-sm-2 control-label">费用/月</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
                         <i class="fa fa-bullhorn"></i>
-                        <input type="text" class="form-control" name="money" id="money" value="{$hostInfo.money}" placeholder="费用/月">
+                        <input type="text" class="form-control" name="money" id="money" value="{$hostInfo.money}"
+                          placeholder="费用/月">
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">服务器到期时间</label>
+                    <label class="col-lg-2 col-sm-2 control-label">服务器到期时间</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
                         <i class="fa fa-bullhorn"></i>
-                        <input type="text" class="form-control" name="expiretime" id="expiretime" value="{$hostInfo.expiretime}" placeholder="2019-12-10">
+                        <input type="text" class="form-control" name="expiretime" id="expiretime"
+                          value="{$hostInfo.expiretime}" placeholder="2020-12-10">
                         <span class="help-block">记录服务器到期时间，防止过期导致的一些严重问题</span>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">宝塔地址</label>
+                    <label class="col-lg-2 col-sm-2 control-label">宝塔地址</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
                         <i class="fa fa-bullhorn"></i>
-                        <input type="text" class="form-control" name="bturl" id="bturl" value="{$hostInfo.bturl}"  placeholder="宝塔地址">
+                        <input type="text" class="form-control" name="bturl" id="bturl" value="{$hostInfo.bturl}"
+                          placeholder="宝塔地址">
                         <span class="help-block">宝塔面板全地址，如http://127.0.0.1:8888</span>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">宝塔Api密钥</label>
+                    <label class="col-lg-2 col-sm-2 control-label">宝塔Api密钥</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
                         <i class="fa fa-bullhorn"></i>
-                        <input type="text" class="form-control" name="btoken" id="btoken" value="{$hostInfo.btoken}" placeholder="宝塔Api密钥">
+                        <input type="text" class="form-control" name="btoken" id="btoken" value="{$hostInfo.btoken}"
+                          placeholder="宝塔Api密钥">
                         <span class="help-block">宝塔API接口密钥</span>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">测试域名</label>
+                    <label class="col-lg-2 col-sm-2 control-label">测试域名</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
                         <i class="fa fa-bullhorn"></i>
-                        <input type="text" class="form-control" name="domain" id="domain" value="{$hostInfo.domain}" placeholder="测试域名">
-                        <span class="help-block">主机预留域名，此处填写一个顶级域名，之后<code>泛解析</code>到当前服务器上，当然也可以使用cdn解析，用户canme到分配的测试域名后能使用到免费的cdn服务。如果不填写则不提供测试域名服务，用户将只能解析到服务器IP地址</span>
+                        <input type="text" class="form-control" name="domain" id="domain" value="{$hostInfo.domain}"
+                          placeholder="测试域名">
+                        <span
+                          class="help-block">主机预留域名，此处填写一个顶级域名，之后<code>泛解析</code>到当前服务器上，当然也可以使用cdn解析，用户canme到分配的测试域名后能使用到免费的cdn服务。如果不填写则不提供测试域名服务，用户将只能解析到服务器IP地址</span>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">数据库管理地址</label>
+                    <label class="col-lg-2 col-sm-2 control-label">数据库管理地址</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
                         <i class="fa fa-bullhorn"></i>
-                        <input type="text" class="form-control" name="sqlurl" id="sqlurl" value="{$hostInfo.sqlurl}" placeholder="数据库管理地址">
+                        <input type="text" class="form-control" name="sqlurl" id="sqlurl" value="{$hostInfo.sqlurl}"
+                          placeholder="数据库管理地址">
                         <span class="help-block">由于宝塔phpMyadmin地址加密，请访问后复制到此，如不填写，则不提供Web端MySQL管理工具</span>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">服务器区域</label>
+                    <label class="col-lg-2 col-sm-2 control-label">服务器区域</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
                         <i class="fa fa-bullhorn"></i>
-                        <input type="text" name="local" id="local" class="form-control" value="{$hostInfo.local}" placeholder="服务器区域(广东,北京,俄罗斯……)">
+                        <input type="text" name="local" id="local" class="form-control" value="{$hostInfo.local}"
+                          placeholder="服务器区域(广东,北京,俄罗斯……)">
                         <span class="help-block">服务器所在地区，用于更精准的购买需求</span>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">性能标签</label>
+                    <label class="col-lg-2 col-sm-2 control-label">性能标签</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
-                        <input name="tag" id="tag" class="tagsinput"  value="{$hostInfo.tag}">
+                        <input name="tag" id="tag" class="tagsinput" value="{$hostInfo.tag}">
                         <span class="help-block">性能配置标签：主要描述该主机性能以及带宽等特点</span>
                       </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">环境标签</label>
+                    <label class="col-lg-2 col-sm-2 control-label">环境标签</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
-                        <input name="service" id="service" class="tagsinput" value="{$hostInfo.service}" >
+                        <input name="service" id="service" class="tagsinput" value="{$hostInfo.service}">
                         <span class="help-block">环境配置标签：主要描述该主机配置环境以及支持程序</span>
                       </div>
                     </div>
                   </div>
 
                   <div class="form-group">
-                    <label  class="col-lg-2 col-sm-2 control-label">状态</label>
+                    <label class="col-lg-2 col-sm-2 control-label">状态</label>
                     <div class="col-lg-10">
                       <div class="iconic-input">
-                        <div class="switch switch-square"
-                        data-on-label="启用"
-                        data-off-label="禁用">
-                        <input type="checkbox" {$hostInfo.status?'checked=""':''} name="status" value="1"/>
+                        <div class="switch switch-square" data-on-label="启用" data-off-label="禁用">
+                          <input type="checkbox" {$hostInfo.status?'checked=""':''} name="status" value="1"/>
                       </div>
                     </div>
                   </div>

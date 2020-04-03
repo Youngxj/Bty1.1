@@ -23,7 +23,7 @@ a:hover {
 .topbg{height:180px;width:100%;background:url(../imgs/topbj1.png) no-repeat center top}
 .topbg .container{position:relative;}
 .topbg .container .userinfo{font-size:16px;color:#fff;position:absolute;left:100px;top:70px;}
-.topbg .container .userinfo span{display:block;font-size:12px;background-color:#ffc10a;margin-top:10px;height:22px;line-height:21px;width:70px;text-align:center;border-radius:3px;color:#fff;}
+.topbg .container .userinfo span{display:block;font-size:12px;background-color:#ffc10a;margin-top:10px;height:22px;line-height:21px;padding:3px 5px;text-align:center;border-radius:3px;color:#fff;}
 .clnav{background-color:#08a5e0;width:100%;height:98px;}
 .clnav .nav ul{list-style:none;margin:0;padding:0;}
 .clnav .nav ul li{float:left;background:url() no-repeat left center;}
@@ -37,7 +37,7 @@ a:hover {
 .clnav .nav ul li a.nav_6{background:url(../imgs/nav_6.png) no-repeat center 25px;}
 .clnav .nav ul li a.nav_7{background:url(../imgs/nav_7.png) no-repeat center 25px;}
 .clnav .nav ul li a:hover,.clnav .nav ul li a.cur{background-color:#169ada;transition: all 0.25s ease-out 0s; }
-/* ¶¨Òå×îÍâ²ãÑùÊ½ */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ */
 #container {
 	height: 100%;
 	width: 100%;
@@ -45,7 +45,7 @@ a:hover {
 	background: #F6F4F5;
 	padding-top: 10px;
 }
-/* ¶¨ÒåÏÔÊ¾ËùÔÚÎ»ÖÃ²ãÑùÊ½ */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã²ï¿½ï¿½ï¿½Ê½ */
 .topimg {
 	text-align: left;
 	background: url(xt.jpg) 10px no-repeat;
@@ -400,7 +400,7 @@ hr {
 	text-decoration: underline;
 }
 
-/*ÐÂ°æcss*/ /*ÐÂ°æcss*/
+/*ï¿½Â°ï¿½css*/ /*ï¿½Â°ï¿½css*/
 .table_main {
 	background-color: #D5D4D4;
 	width: 100%;
@@ -680,7 +680,7 @@ BORDER-BOTTOM: #9DAFBB 1px solid;
 	background-image: url(table_box.gif);
 }
 
-/*ÓÃ»§¿ØÖÆÃæ°å¹¦ÄÜÆôÓÃ¹Ø±Õcss*/
+/*ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å¹¦ï¿½ï¿½ï¿½ï¿½ï¿½Ã¹Ø±ï¿½css*/
 .start {
 	float: left;
 	padding-left: 10px;
@@ -699,12 +699,12 @@ BORDER-BOTTOM: #9DAFBB 1px solid;
 	padding-left: 10px;
 	padding-bottom: 7px;
 }
-/*½áÊøÓÃ»§¿ØÖÆÃæ°å¹¦ÄÜÆôÓÃ¹Ø±Õcss*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½å¹¦ï¿½ï¿½ï¿½ï¿½ï¿½Ã¹Ø±ï¿½css*/
 .pa_top_5 {
 	padding-top: 5px;
 }
 
-/*¿ªÊ¼¿ØÖÆÃæ°åµ±Ç°Á¬½ÓÐÅÏ¢css*/
+/*ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½åµ±Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢css*/
 .con_ip {
 	width: 20%;
 }
@@ -734,9 +734,9 @@ BORDER-BOTTOM: #9DAFBB 1px solid;
 	background-color: #FFA500;
 	font-size: 16;
 }
-/*½áÊø¿ØÖÆÃæ°åµ±Ç°Á¬½ÓÐÅÏ¢css*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½åµ±Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢css*/
 
-/*Ô²½Çcss*/
+/*Ô²ï¿½ï¿½css*/
 #xsnazzy h1,#xsnazzy h2,#xsnazzy p {
 	margin: 0 10px;
 	letter-spacing: 1px;
@@ -1020,7 +1020,7 @@ BORDER-BOTTOM: #9DAFBB 1px solid;
 .ep_main2_general ul li img{background-color:#1abc9c;padding:10px;border-radius:50px;}
 .ep_main2_general ul li span{display:block;width:113px;text-align:Center}
 .ep_main2_general ul li a:hover img{padding:12px;width:38px;}
-/**** ÓÒ±ß´úÂë ****/
+/**** ï¿½Ò±ß´ï¿½ï¿½ï¿½ ****/
 #ep_main3 {
     margin-top: 8px;
 	width: 310px;
@@ -1045,7 +1045,7 @@ BORDER-BOTTOM: #9DAFBB 1px solid;
 	color: #000;
 }
 
-/*****  ¹¦ÄÜ  *****/
+/*****  ï¿½ï¿½ï¿½ï¿½  *****/
 .main {
     margin: 8px 0;
 	background-color: #fff;
@@ -1054,7 +1054,7 @@ BORDER-BOTTOM: #9DAFBB 1px solid;
 }
 .webftp {color:#666;}
 
-/*****   Í¼±ê   *****/
+/*****   Í¼ï¿½ï¿½   *****/
 .index, .ymbd, .zxwj, .ljxx, .xnfx, .off, .xgmm, .dkxz, .hcsz, .qchc, .cwdy, .ymys, .weby, .mime, .mrwj, .ymtz, .cqjc, .sjkgl, .sjbf, .ftp, .ssi, .ssl, .jzip, .fdl, .csgl, .muma, .cc, .llt, .rzfx, .jhrw, .http  {
 	background-image: url(../imgs/vhost.gif);
 	background-repeat: no-repeat;

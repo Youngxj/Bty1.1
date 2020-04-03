@@ -9,6 +9,7 @@ use think\Session;
 use think\View;
 use app\util\Tools;
 use app\admin\controller\Login;
+use app\bt\Bt;
 
 class Host extends Controller{
 	private $UserInfo = '';
@@ -58,6 +59,13 @@ class Host extends Controller{
 				$expiretime = $incStrArr['expiretime'];
 				$bturl = $incStrArr['bturl'];
 				$btoken = $incStrArr['btoken'];
+				$bt = new Bt($bturl,$btoken);
+				$getinfo = $bt->GetSystemTotal();
+				if($getinfo&&isset($getinfo['version'])){
+
+				}else{
+					return Tools::buildFailed(-1,'连接宝塔失败：'.$getinfo['msg']);
+				}
 
 				if($this->incHost($name,$ip,$money,$group,$expiretime,$bturl,$btoken)){
 					return Tools::buildSuccess(200,'新增成功');

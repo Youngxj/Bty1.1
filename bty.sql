@@ -382,7 +382,7 @@ CREATE TABLE `bty_webinfo` (
 
 LOCK TABLES `bty_webinfo` WRITE;
 /*!40000 ALTER TABLE `bty_webinfo` DISABLE KEYS */;
-INSERT INTO `bty_webinfo` VALUES (1,'bty.yum6.cn','Bty云','宝塔,宝塔分销,分销中心,宝塔IDC,BTY','全国首个PHP宝塔IDC分销系统');
+INSERT INTO `bty_webinfo` VALUES (1,'bty.yum6.cn','Bty分销系统','Bty分销系统,Bty,宝塔面板,宝塔IDC,宝塔分销,宝塔主机,bty主机','独立的用户管理、后台配置、主机控制面板使用宝塔API接入服务器可实现正常的网站操作配合宝塔强大的生态系统，安装更多插件后可使用到许多有趣的功能');
 /*!40000 ALTER TABLE `bty_webinfo` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

@@ -10,3 +10,18 @@
 // +----------------------------------------------------------------------
 
 // 应用公共文件
+
+/**
+ * 判断是否包含字符串
+ * @param  [type]  $key 长内容
+ * @param  [type]  $con 关键字
+ * @return boolean      [description]
+ */
+function isHave($key, $con)
+{
+    if (strpos($key, $con) !== false) {
+        return true;
+    } else {
+        return false;
+    }
+}
